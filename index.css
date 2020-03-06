@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#menu {
+  z-index: 10;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu button {  
+  padding: 5px 10px;
+  margin: 0;
+  background: #dddddd;
+}
+
+.popup-container {
+  display: flex;
+  width: 200px;
+  overflow: scroll;
+}
+
+.popup-item {
+  flex: 1 0 auto;
+  padding: 0px 10px;
+}
