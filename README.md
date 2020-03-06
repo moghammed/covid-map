@@ -15,4 +15,4 @@ To get your map up and running, you only need to follow these easy steps:
 4. Update `settings.js` on your webserver with the tsv link where it says `SHEET_URL`.
 5. Get a mapbox access token at https://account.mapbox.com/ and copy it.
 6. Update `settings.js` on your webserver with the mapbox access token where it says `ACCESSTOKEN`.
-7. start filling the sheet with the cases as they appear.
+7. Start filling the sheet with the cases as they appear.
